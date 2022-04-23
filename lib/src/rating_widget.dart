@@ -140,7 +140,7 @@ class _RatingWidgetState extends State<RatingWidget> {
                         child: DefaultButton.text(
                           "SUBMIT",
                           textColor: Colors.white,
-                          color: Theme.of(context).colorScheme.secondary,
+                          color: Color(0xFF0C192E),
                           outlineColor: Theme.of(context).colorScheme.secondary,
                           onPressed: () => controller.ratingCubit.saveRate(selectedRate),
                           isLoading: isLoading,
@@ -159,11 +159,11 @@ class _RatingWidgetState extends State<RatingWidget> {
                             outline: false,
                             flat: true,
                             color: Colors.transparent,
-                            textColor: const Color(0xFF2F333A),
+                            textColor: const Color(0xFF0C192E),
                             onPressed: () => controller.ratingCubit.ignoreForEver(),
                             isLoading: isLoading,
                             child: const Text(
-                              "Prefiro não classificar",
+                              "Rating ignored forever!",
                               style: TextStyle(decoration: TextDecoration.underline, color: Colors.black54, fontSize: 12),
                             ),
                           ),
