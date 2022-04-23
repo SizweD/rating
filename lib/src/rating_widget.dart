@@ -138,7 +138,7 @@ class _RatingWidgetState extends State<RatingWidget> {
                       opacity: selectedRate == 0 ? 0 : 1,
                       child: Center(
                         child: DefaultButton.text(
-                          "CONFIRMAR",
+                          "SUBMIT",
                           textColor: Colors.white,
                           color: Theme.of(context).colorScheme.secondary,
                           outlineColor: Theme.of(context).colorScheme.secondary,
