@@ -58,7 +58,7 @@ class _RatingListenHelper {
 
   void _onErrorListener(Object error, StackTrace stackTrace) {
     if (kDebugMode) {
-      debugPrint("[Person Store Rating Error] - $error");
+      debugPrint("[Person School Rating Error] - $error");
       ScaffoldMessenger.maybeOf(context)?.showSnackBar(SnackBar(content: Text('Error ocurred: $error')));
     }
   }
