@@ -163,7 +163,7 @@ class _RatingWidgetState extends State<RatingWidget> {
                             onPressed: () => controller.ratingCubit.ignoreForEver(),
                             isLoading: isLoading,
                             child: const Text(
-                              "Rating ignored forever!",
+                              "Cancel",
                               style: TextStyle(decoration: TextDecoration.underline, color: Colors.black54, fontSize: 12),
                             ),
                           ),
