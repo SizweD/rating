@@ -22,7 +22,7 @@ class DefaultButton extends StatelessWidget {
     this.height = 50,
     this.width = 150,
     this.outline = true,
-    this.color,
+    this.color = const Color(0xFF5F9DA8),
     this.textColor = const Color(0xFFF8D560),
     this.outlineColor,
     this.flat = false,
