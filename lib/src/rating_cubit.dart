@@ -39,7 +39,7 @@ class RatingCubit extends Cubit<RatingState> {
 
   void saveRate(int rate) async {
     try {
-      emit(LoadingState("Enviando Avaliação..."));
+      emit(LoadingState("Sending Evaluation..."));
       await _saveRatingCallback.call(rate, selectedCriterions.toList());
       emit(CloseDialogState(false));
     } catch (ex, stack) {
